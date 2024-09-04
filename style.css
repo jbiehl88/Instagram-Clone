@@ -1,0 +1,39 @@
+.logo {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 75px;
+}
+
+.landing{
+    display: flex;
+    flex-direction: column;
+}
+
+#userField{
+    align-self: center;
+    width: 15%;
+    font-size: large;
+}
+
+#passField {
+    align-self: center;
+    margin-top: 8px;
+    width: 15%;
+    font-size: large;
+}
+
+#loginBtn {
+    align-self: center;
+    margin-top: 8px;
+    width: 15%;
+    background-color: lightblue;
+    font-size: 30px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 900;
+    border: none;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
