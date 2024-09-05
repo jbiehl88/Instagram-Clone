@@ -70,6 +70,7 @@
 .accountLogo {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 20px;
+    font-size: 30px;
 }
 
 a, a:hover, a:visited, a:active {
@@ -116,5 +117,148 @@ a, a:hover, a:visited, a:active {
     text-align:center;
 }
 
+.counters {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
 
+.media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:left;
+    width: auto;
+}
 
+.mediaCard {
+    margin-bottom: 0.5%;
+    margin-right: 0.5%;
+}
+
+.counters {
+    display:flex;
+    justify-content: center;
+}
+
+.counter {
+    text-wrap: wrap;
+    margin: 1%;
+}
+
+.formats {
+    display: flex;
+    justify-content: center;
+    margin-top: .5%;
+    margin-bottom: .5%;
+}
+
+.format {
+    padding-right: 3%;
+    height:45px;
+}
+
+.categoryImages {
+    white-space: nowrap;
+}
+
+.categoryCard{
+    display:inline;
+}
+
+.catImage{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.feed {
+    background-color: black;
+    color: white;
+}
+
+.feedNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedLogo {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.feed-nav-icons{
+    display: flex;
+    align-items: center;
+}
+
+.feedInfo {
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+    display: flex;
+    justify-content: center;
+}
+
+.feedImage {
+    margin-top: .5%;
+}
+
+#feedImage1 {
+    border-radius: 50%;
+    height: 70px;
+}
+
+.span {
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.feedName {
+    margin-left: 2%;
+}
+
+.feed-images {
+    display: flex;
+    justify-content: center;
+}
+
+.feed-icons-below {
+    display: flex;
+    justify-content: center;
+}
+
+.feed-icon-flex1 {
+    margin-right: 15%;
+    margin-top: 1%;
+}
+
+.feed-icon-flex2 {
+    margin-top: 1%;
+}
+
+.likes {
+    display: flex;
+    justify-content: center;
+    margin-right: 18%;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 6%;
+}
+
+.comments-p2 {
+    color: grey;
+    margin-right: 7%;
+}
+
+.comments-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#comments-p3 {
+    margin-left:10px;
+    color: grey;
+}

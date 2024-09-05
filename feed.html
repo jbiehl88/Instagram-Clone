@@ -5,10 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Multigram</title>
+    <title>Multigram - Feed</title>
   </head>
-  <body>
-    <h1>Feed Page</h1>
+  <body class="feed">
+    <!-- Navbar -->
+    <nav class="feedNav">
+      <div class="feed-flex">
+        <h1 class="feedLogo">Multigram</h1>
+      </div>
+      <div class="feed-nav-icons">
+        <div class="feed-nav-icon"><img src="assets/feedPlus.png"></div>
+        <div class="feed-nav-icon"><img src="assets/heartnotif.png"></div>
+      </div>
+    </nav>
+
+    <!-- Account Details -->
+    <div class="feedInfo">
+			<div class="feedImage">
+				<img id="feedImage1" src="assets/multiverselogo.png">
+			</div>
+    <div class="feedName">
+      <h3 id="feed-name">joinmultiverse</h3>
+      <p id="feed-desc">SZA - Kill Bill (Sped Up Version)</p>
+    </div>
+    <div class="span">...</div>
+		</div>
+
+    <!-- Image -->
+    <div class="feed-images">
+      <img id="feed-image" src="https://picsum.photos/400/500">
+    </div>
+
+    <!-- Icons -->
+    <div class="feed-icons-below">
+      <div class="feed-icon-flex1">
+        <img class="feed-icon-below" src="assets/heart.png">
+        <img class="feed-icon-below" src="assets/comment.png">
+        <img class="feed-icon-below" src="assets/arrow.png">
+      </div>
+      <div class="feed-icon-flex2">
+        <img class="feed-icon-bookmark" src="assets/bookmark.png">
+      </div>
+    </div>
+
+    <!-- Likes -->
+     <div class="likes">
+      <p class="likes-p">427 likes</p>
+     </div>
+
+     <!-- Comments -->
+      <div class="comments">
+        <div class="comments-inline">
+          <p class="comments-p1"><strong>joinmultiverse</strong> would you do this?</p>
+          <p id="comments-p3">...more</p>
+        </div>
+        <p class="comments-p2">View all 20 comments</p>
+      </div>
 
     <script src="script.js"></script>
   </body>

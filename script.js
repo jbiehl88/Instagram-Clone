@@ -1,5 +1,14 @@
-// let button = document.querySelector("#loginBtn")
+let image = document.querySelectorAll(".mediaCard")
+let logo = document.querySelectorAll("h1")
 
-// button.addEventListener("click", function(){
+for(let i = 0; i < image.length; i++) {
+    image[i].addEventListener("click", function (){
+        document.location.href = "/feed.html"
+    })
+}
 
-// })
+for(let i=0; i < logo.length; i++) {
+    logo[i].addEventListener("click", function () {
+        document.location.href = "/index.html"
+    })
+}
